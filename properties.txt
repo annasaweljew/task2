@@ -1,0 +1,8 @@
+Files to be delivered to user: 
+src/main/java/org/example/Task.java
+
+Task verification method:
+run mvn test goal
+
+Test class:
+src/test/java/org/example/task/TaskTest.java
