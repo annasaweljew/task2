@@ -1,0 +1,12 @@
+filesToBeDeliveredToUser:
+  - file: src/main/java/org/example/Task.java
+
+environment:
+  name: Java
+  version: 11
+
+taskVerificationMethod: mvn test
+
+resultFiles:
+  - file: test_results/test_summary.txt
+  - file: test_results/test_details.txt
