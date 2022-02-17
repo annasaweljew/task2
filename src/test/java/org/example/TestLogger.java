@@ -40,6 +40,11 @@ public class TestLogger {
     }
 
     private void saveDetailedResults(Path filePath) {
+        try {
+            Files.writeString(filePath,"");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         results.forEach((key, value) -> {
             try {
                 Files.writeString(filePath,
