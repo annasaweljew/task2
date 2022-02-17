@@ -11,8 +11,8 @@ import java.util.Map;
 //save test results to txt file
 public class TestLogger {
 
-    private static final String MAIN_TEST_LOG_FILE = "test_summary.txt";
-    private static final String DETAIL_TEST_LOG_FILE = "test_details.txt";
+    private static final String MAIN_TEST_LOG_FILE = "test_results/test_summary.txt";
+    private static final String DETAIL_TEST_LOG_FILE = "test_results/test_details.txt";
 
     private final Map<String,Boolean> results = new HashMap<>();
 

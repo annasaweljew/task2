@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  env:
+    image: timbru31/alpine-java-maven
+    command: [ "sh", "-c", "
+        cd code;
+        mvn test;
+      " ]
+    volumes:
+      - .:/code
